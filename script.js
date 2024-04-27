@@ -56,6 +56,10 @@ function addItem()
                               </table>`
 
 
+    console.log("obj",obj.date) 
+    console.log("dateWithoutTimeInReqFormat",dateWithoutTimeInReqFormat)
+
+    
     if (obj.date == dateWithoutTimeInReqFormat) 
     { todayList.append(taskCard) }
     else if (obj.date < dateWithoutTimeInReqFormat)
