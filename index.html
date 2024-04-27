@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+    <h1>To-Do List</h1>
+
+    <form>
+        <input type="text" placeholder="Item Name" id="itemName" style="width: 35%;">
+        <input type="text" placeholder="Deadline" onfocus="(this.type='date')" onblur="(this.type='text')" id="deadLine" style="width: 25%;">
+        <select id="Priorities" style="width: 25%;">
+            <option value="Priority"> Priority </option>
+            <option value="High"> High </option>
+            <option value="Medium"> Medium </option>
+            <option value="Low"> Low </option>
+        </select>
+        <button id="Addbtn">Add Item</button>
+    </form>
+
+
+    <h3>Today's TodoList</h3>
+    <div id="Today"></div>
+    <h3>Future TodoList</h3>
+    <div id="Future"></div>
+    <h3>Completed TodoList</h3>
+    <div id="Completed"></div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*
+{
+    padding: 5px;
+}
+
+h1
+{
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    /* border: 3px solid darkblue; */
+}
+
+
+form
+{
+    margin-top: 10px;
+}
+
+button
+{
+    background-color: black;
+    color: white;
+    width: 125px;
+}
+
+.taskCard
+{
+    margin-bottom: 10px; 
+    margin-left: 0;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+
+.delayed
+{
+    border: 5px solid red;
+    height: 50px;
+} 
